@@ -6,6 +6,7 @@ jobs:
     
     steps:
       - checkout
+      - run: emulator -list-avds
       - run: emulator -avd circleci-android22 -no-window
       - run: echo "A more familiar hi"
 
