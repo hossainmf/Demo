@@ -5,7 +5,7 @@ jobs:
      - image: circleci/ruby:2.4.1
     steps:
       - checkout
-      - cd /home/jaser/AndroidStudioProjects/AndroidDemoTestProject
+      - run: cd /home/jaser/AndroidStudioProjects/AndroidDemoTestProject
      # - run: emulator -avd circleci-android22 -no-window
       - run: ls
 
