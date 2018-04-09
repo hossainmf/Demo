@@ -6,7 +6,7 @@ jobs:
     
     steps:
       - checkout
-      - run: emulator -list-avds
+      - cd ~/AndroidStudioProjects/AndroidDemoTestProject
      # - run: emulator -avd circleci-android22 -no-window
       - run: ls
 
