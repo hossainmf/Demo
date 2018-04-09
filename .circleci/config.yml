@@ -15,4 +15,5 @@ jobs:
          command: emulator -avd circleci-android22 -no-window:
             background: true
             parallel: true
+      - run: echo "A more familiar hi"
 
