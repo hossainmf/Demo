@@ -11,5 +11,6 @@ jobs:
       - run: pwd
      # - run: emulator -avd circleci-android22 -no-window
       - run: ls
-      - run: gcloud firebase test android models list
+      - run: cd app/build/reports
+      - run: pwd
 
