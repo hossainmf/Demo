@@ -11,6 +11,7 @@ jobs:
       - run: pwd
      # - run: emulator -avd circleci-android22 -no-window
       - run: ls
-      - run: cd app/build/reports
+      - run: mkdir home/app/build/reports
+      - run: cd home/app/build/reports
       - run: pwd
 
