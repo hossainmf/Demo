@@ -1,12 +1,9 @@
 version: 2
 jobs:
   build:
-    docker:
-      - image: circleci/android:api-25-alpha
-    
     steps:
       - checkout
-      - cd ~/AndroidStudioProjects/AndroidDemoTestProject
+      - cd /home/jaser/AndroidStudioProjects/AndroidDemoTestProject
      # - run: emulator -avd circleci-android22 -no-window
       - run: ls
 
