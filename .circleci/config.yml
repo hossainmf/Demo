@@ -6,10 +6,6 @@ jobs:
     
     steps:
       - checkout
-      - run:
-         name: Start an emulator 
-         command: emulator -avd circleci-android22 -no-window:
-            background: true
-            parallel: true
+      - run: emulator -avd circleci-android22 -no-window
       - run: echo "A more familiar hi"
 
